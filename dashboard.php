@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>School System Dashboard</title>
+    <title>Mil-an National High School</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -10,33 +10,47 @@
 
 <div class="sidebar">
 
-    <h2>School System</h2>
+    <center>
+        <img src="images/logo.png" width="100">
+    </center>
 
-    <a href="#">Dashboard</a>
-    <a href="#">Students</a>
-    <a href="#">Attendance</a>
-    <a href="#">Schedules</a>
-    <a href="#">Reports</a>
+    <h2>Mil-an NHS</h2>
+
+    <a href="dashboard.php">Dashboard</a>
+    <a href="students.php">Student Management</a>
+    <a href="attendance.php">Attendance Monitoring</a>
+    <a href="schedules.php">Faculty Schedule</a>
+    <a href="reports.php">Reports & Analytics</a>
+    <a href="#">Logout</a>
 
 </div>
 
 <div class="main">
 
-    <h1>Dashboard</h1>
+    <h1>Mil-an National High School</h1>
+
+    <h3>School Management & Attendance Monitoring System</h3>
+
+    <hr>
 
     <div class="card">
-        <h3>Total Students</h3>
-        <p>0</p>
+        <h2>Total Students</h2>
+        <h1>0</h1>
     </div>
 
     <div class="card">
-        <h3>Present Today</h3>
-        <p>0</p>
+        <h2>Present Today</h2>
+        <h1>0</h1>
     </div>
 
     <div class="card">
-        <h3>Absent Today</h3>
-        <p>0</p>
+        <h2>Absent Today</h2>
+        <h1>0</h1>
+    </div>
+
+    <div class="card">
+        <h2>Total Teachers</h2>
+        <h1>0</h1>
     </div>
 
 </div>
